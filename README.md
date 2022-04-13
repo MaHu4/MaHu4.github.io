@@ -13,7 +13,7 @@ The website is baed on a responsive web design so that it looks good on differen
 Tested on https://gtmetrix.com/ where the page gets A rate a with a performance score of 100%, a structure score of 99% and a full loading time of 688ms.  
 The testing with wave.webaim.org detected no major issue. There are 8 errors, out of which 4 cannot be resolved because an alt-text cannot be added to the pictures of the random user pictures in trhe team-section that was used to practice Java Script. No contrast errors were detected in the page.     
 
-I have integrated the following CSS animation and JS functions :
+I have integrated the following CSS animation and JS functions "
 
 -  A back-to-top button in style.css for the one-page website to make teh website user-friendlier (lines 67-91 in sytel.css, line 25 in index.html);
 - A Random User Generator for team-section of NAD.café in custom.js (lines 27 - 70) and linked to the id #team-members (line 102) in index.html with help of the .getElementById- fiunction;
