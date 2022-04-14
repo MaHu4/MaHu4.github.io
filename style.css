@@ -257,10 +257,22 @@ h4 {
   padding: 10px;
   margin: 50px 5px;
 }
-.about-section p {
-  text-align: justify;
+.p-justified-right p {
+  text-align: right;
   padding: 5px;
- }
+  }
+  .p-justified-left p {
+    text-align: left;
+    padding: 5px;
+    }
+  @media screen and (max-width: 360px) {
+    .p-justified-right p {
+      text-align: justify;
+    }
+    .p-justified-left p {
+      text-align: justify;
+    }
+   }
 .about-img1 {
   min-width: 30%;
   height: auto;
